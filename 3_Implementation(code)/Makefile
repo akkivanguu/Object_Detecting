@@ -30,7 +30,7 @@ else #All configurations for Linux OS
    endif
 endif
 
-# Command to make to consider these names as targets and not as file names in folder
+# Command to make to consider these names as targets and not as file names
 .PHONY:all analysis clean doc
 
 all:$(BUILD_DIR)
